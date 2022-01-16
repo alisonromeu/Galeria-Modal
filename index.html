@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Fotos</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <h1 class="title">Galeria de Fotos</h1>
+
+    <div class="galeria-modal" onclick="closeGaleria()">
+        <span>X</span>
+        <img src="" alt="">
+    </div>
+
+    <section>
+        <div class="galeria">
+            <div class="single-galeria w-2 h-2">
+                <img src="https://source.unsplash.com/random/?animes" alt="Aleatório 1" onclick="openGaleria('https://source.unsplash.com/random/?animes')">
+            </div>
+
+            <div class="single-galeria w-2">
+                <img src="https://source.unsplash.com/random/?people" alt="Aleatório 2" onclick="openGaleria('https://source.unsplash.com/random/?people')">
+            </div>
+
+            <div class="single-galeria">
+                <img src="https://source.unsplash.com/random/?background" alt="Aleatório 3" onclick="openGaleria('https://source.unsplash.com/random/?background')">
+            </div>
+
+            <div class="single-galeria h-2">
+                <img src="https://source.unsplash.com/random/?airplane" alt="Aleatório 4" onclick="openGaleria('https://source.unsplash.com/random/?airplane')">
+            </div>
+
+            <div class="single-galeria">
+                <img src="https://source.unsplash.com/random/?animals" alt="Aleatório 5" onclick="openGaleria('https://source.unsplash.com/random/?animals')">
+            </div>
+            
+            <div class="single-galeria w-2">
+                <img src="https://source.unsplash.com/random" alt="Aleatório 6" onclick="openGaleria('https://source.unsplash.com/random')">
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/main.js"></script>
+</body>
+</html>
